@@ -1,0 +1,31 @@
+surah: 1
+ayat: 2
+arab: "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَـٰلَمِينَ"
+imlai: "الحمد لله رب العالمين"
+terjemah_minimal: "Segala pujian bagi Allah, pemelihara seluruh alam."
+kata_kunci:
+  - kata: "ٱلْحَمْدُ"
+    akar: "ح-م-د"
+    pola: "فَعْل (مصدر)"
+    perlu_verifikasi: false
+  - kata: "رَبِّ"
+    akar: "ر-ب-ب"
+    pola: "فَعْل"
+    catatan: "Makna dasar: yang memelihara dan menumbuhkan."
+    perlu_verifikasi: false
+  - kata: "ٱلْعَـٰلَمِينَ"
+    akar: "ع-ل-م"
+    pola: "فَاعَلِين (جمع)"
+    catatan: "Hubungan dengan ع-ل-م lazim disebut; sebagian menautkan ke علامة (tanda)."
+    perlu_verifikasi: true
+bukti_internal:
+  - ayat: "QS 6:1"
+    alasan: "Pembukaan kitab dengan pujian yang sama — memastikan 'hamd' bukan istilah lokal."
+klaim:
+  - isi: "Pujian (hamd) ditujukan kepada Allah sebagai pemelihara seluruh alam."
+    dasar: ["QS 1:2", "QS 6:1"]
+    status: "tetap"
+bantahan:
+  - isi: "'Ālamīn dapat berarti seluruh makhluk atau alam semesta; tidak ada penetapan tunggal."
+    jawaban: "Dua kemungkinan dicatat; tidak dijadikan dasar tuntutan, sesuai Pasal 2."
+status: "ditinjau-1"

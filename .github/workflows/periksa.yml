@@ -1,0 +1,20 @@
+name: periksa
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  isi:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Teks Tier 0 tidak berubah
+        run: python scripts/cek-teks.py
+      - name: Penjaga isi (PRINSIP.md)
+        run: python scripts/periksa.py

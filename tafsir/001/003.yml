@@ -1,0 +1,25 @@
+surah: 1
+ayat: 3
+arab: "ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ"
+imlai: "الرحمن الرحيم"
+terjemah_minimal: "Yang Maha Pengasih, Maha Penyayang."
+kata_kunci:
+  - kata: "ٱلرَّحْمَـٰنِ"
+    akar: "ر-ح-م"
+    pola: "فَعْلَان"
+    perlu_verifikasi: false
+  - kata: "ٱلرَّحِيمِ"
+    akar: "ر-ح-م"
+    pola: "فَعِيل"
+    perlu_verifikasi: false
+bukti_internal:
+  - ayat: "QS 7:156"
+    alasan: "Rahmat Allah dinyatakan meliputi segala sesuatu — menopang penggunaan akar yang sama."
+klaim:
+  - isi: "Rahmat disebut dua kali dengan dua pola berbeda sebagai penegasan, bukan dua tuhan."
+    dasar: ["QS 1:3", "QS 7:156"]
+    status: "tetap"
+bantahan:
+  - isi: "Pengulangan dianggap mubazir; sebagian pembaca menyebutnya dua nama yang berbeda."
+    jawaban: "Teks diterima apa adanya; pengulangan dicatat sebagai ciri gaya, tidak disimpulkan menjadi tuntutan baru."
+status: "ditinjau-1"

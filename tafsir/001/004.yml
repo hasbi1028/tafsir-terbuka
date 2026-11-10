@@ -1,0 +1,35 @@
+surah: 1
+ayat: 4
+arab: "مَـٰلِكِ يَوْمِ ٱلدِّينِ"
+imlai: "مالك يوم الدين"
+terjemah_minimal: "Pemilik hari pembalasan."
+kata_kunci:
+  - kata: "مَـٰلِكِ"
+    akar: "م-ل-ك"
+    pola: "فَاعِل"
+    catatan: "Bacaan Hafs. Bacaan lain: مَلِكِ (raja) — lihat qiraat/001-004.yml."
+    perlu_verifikasi: false
+  - kata: "يَوْمِ"
+    akar: "ي-و-م"
+    pola: "فَعْل"
+    perlu_verifikasi: false
+  - kata: "ٱلدِّينِ"
+    akar: "د-ي-ن"
+    pola: "فِعْل"
+    catatan: "Di sini bermakna pembalasan/perhitungan."
+    perlu_verifikasi: false
+bukti_internal:
+  - ayat: "QS 51:12"
+    alasan: "Orang menanyakan kapan hari pembalasan — menegaskan 'yaum ad-dīn' sebagai hari yang ditetapkan."
+klaim:
+  - isi: "Hari pembalasan adalah hari yang ditetapkan dan diperbincangkan manusia."
+    dasar: ["QS 1:4", "QS 51:12"]
+    status: "tetap"
+  - isi: "Allah disebut pemilik hari pembalasan."
+    dasar: ["QS 1:4"]
+    status: "bersyarat"
+    syarat: "Bergantung bacaan: Hafs membaca مَالِكِ (pemilik); bacaan lain مَلِكِ (raja). Lihat qiraat/001-004.yml."
+bantahan:
+  - isi: "Perbedaan bacaan mengubah nuansa ayat ini (pemilik vs raja), sehingga sebagian orang menganggapnya masalah."
+    jawaban: "Justru karena itu klaim diberi status bersyarat: kedua bacaan didokumentasikan, tidak ada yang dipilih diam-diam."
+status: "ditinjau-1"

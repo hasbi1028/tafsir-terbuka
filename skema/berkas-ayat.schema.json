@@ -1,0 +1,155 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Berkas ayat",
+  "type": "object",
+  "required": [
+    "surah",
+    "ayat",
+    "arab",
+    "imlai",
+    "terjemah_minimal",
+    "kata_kunci",
+    "bukti_internal",
+    "klaim",
+    "bantahan",
+    "status"
+  ],
+  "properties": {
+    "surah": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 114
+    },
+    "ayat": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "arab": {
+      "type": "string",
+      "pattern": "^[\\u0600-\\u06FF\\u0750-\\u077F\\s]+$"
+    },
+    "imlai": {
+      "type": "string"
+    },
+    "terjemah_minimal": {
+      "type": "string"
+    },
+    "kata_kunci": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "kata",
+          "akar",
+          "pola",
+          "perlu_verifikasi"
+        ],
+        "properties": {
+          "kata": {
+            "type": "string"
+          },
+          "akar": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "pattern": "^[\\u0621-\\u064A](-[\\u0621-\\u064A])+$"
+          },
+          "pola": {
+            "type": "string",
+            "minLength": 1
+          },
+          "catatan": {
+            "type": "string"
+          },
+          "perlu_verifikasi": {
+            "type": "boolean"
+          }
+        }
+      }
+    },
+    "bukti_internal": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "ayat",
+          "alasan"
+        ],
+        "properties": {
+          "ayat": {
+            "type": "string",
+            "pattern": "^QS\\s+\\d+:\\d+$"
+          },
+          "alasan": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "klaim": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "isi",
+          "dasar",
+          "status"
+        ],
+        "properties": {
+          "isi": {
+            "type": "string"
+          },
+          "dasar": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "pattern": "^QS\\s+\\d+:\\d+$"
+            }
+          },
+          "status": {
+            "enum": [
+              "tetap",
+              "bersyarat",
+              "diperdebatkan",
+              "perlu-verifikasi"
+            ]
+          },
+          "syarat": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "bantahan": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "isi",
+          "jawaban"
+        ],
+        "properties": {
+          "isi": {
+            "type": "string"
+          },
+          "jawaban": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "status": {
+      "enum": [
+        "draf",
+        "ditinjau-1",
+        "ditinjau-2",
+        "diperdebatkan"
+      ]
+    }
+  }
+}

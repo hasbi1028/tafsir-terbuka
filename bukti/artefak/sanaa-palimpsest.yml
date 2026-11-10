@@ -1,0 +1,15 @@
+# Tingkat 3 (artefak). Berkas ini TIDAK boleh menjadi dasar tuntutan apa pun.
+nama: "Palimpsest Sanaa (DAM 01-27.1)"
+tingkat: "artefak"
+tier: 3
+lokasi: "Dar al-Makhtutat, Sanaa"
+usia_perkiraan: "abad ke-7 M (perkiraan; dasar: paleografi dan uji radiokarbon pada naskah sejenis, bukan pada seluruh lembar)"
+apa_yang_dibuktikan:
+  - "Praktik penyalinan mushaf pada periode sangat awal"
+  - "Ada lapisan teks bawah dengan susunan/ortografi yang berbeda dari mushaf standar"
+apa_yang_tidak_dibuktikan:
+  - "Tidak membuktikan keabsahan doktrin apa pun"
+  - "Tidak boleh dipakai sebagai dasar menetapkan wajib/haram"
+  - "Tidak menggantikan teks kerja Tier 0"
+dasar_hukum: false
+catatan: "Dirujuk hanya sebagai informasi sejarah teks. Build menolak berkas ini bila dipakai di klaim.dasar (yang wajib berbentuk 'QS x:y')."

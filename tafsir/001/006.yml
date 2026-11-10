@@ -1,0 +1,29 @@
+surah: 1
+ayat: 6
+arab: "ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ"
+imlai: "اهدنا الصراط المستقيم"
+terjemah_minimal: "Tunjukilah kami jalan yang lurus."
+kata_kunci:
+  - kata: "ٱهْدِنَا"
+    akar: "ه-د-ي"
+    pola: "فِعْل (أمر)"
+    perlu_verifikasi: false
+  - kata: "ٱلصِّرَٰطَ"
+    akar: "ص-ر-ط"
+    pola: "فِعَال"
+    perlu_verifikasi: false
+  - kata: "ٱلْمُسْتَقِيمَ"
+    akar: "ق-و-م"
+    pola: "مُسْتَفْعِل (اسم فاعل dari استقام)"
+    perlu_verifikasi: false
+bukti_internal:
+  - ayat: "QS 6:153"
+    alasan: "Allah menyebut 'jalan-Ku yang lurus' — istilah yang sama dipakai untuk menunjuk jalan yang diikuti."
+klaim:
+  - isi: "Permintaan hidayah bersifat berulang dan terus-menerus, bukan sekali selesai."
+    dasar: ["QS 1:6", "QS 6:153"]
+    status: "tetap"
+bantahan:
+  - isi: "'Ṣirāṭ' bisa dibaca sebagai metafora atau jalan konkret."
+    jawaban: "Dua pembacaan dicatat; keduanya tidak mengubah isi permintaan."
+status: "ditinjau-1"

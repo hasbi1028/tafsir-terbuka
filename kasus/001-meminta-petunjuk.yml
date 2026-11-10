@@ -1,0 +1,11 @@
+# Kasus uji: pertanyaan nyata + ayat yang dipakai menjawab.
+# Siapa pun bisa menguji ulang: apakah jawaban konsisten dengan ayat yang dirujuk?
+id: kasus-001
+pertanyaan: "Bagaimana cara meminta petunjuk menurut Al-Quran?"
+ayat_rujukan:
+  - "QS 1:5"
+  - "QS 1:6"
+  - "QS 6:153"
+jawaban_ringkas: "Permintaan petunjuk diajukan langsung kepada Allah dan bersifat berulang; 'jalan yang lurus' dijelaskan sebagai jalan yang diperintahkan untuk diikuti."
+status: "contoh-terbuka"
+catatan: "Jawaban ini tidak mengikat pembaca; ia contoh format agar bisa diuji ulang."

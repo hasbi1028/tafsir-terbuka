@@ -1,0 +1,19 @@
+# Peka qira'at: ayat 1:4 dibaca berbeda pada beberapa qira'at.
+# Berkas ini WAJIB ada bila sebuah ayat punya klaim bergantung bacaan.
+surah: 1
+ayat: 4
+peka_qiraat: true
+bacaan:
+  - nama: "Hafs 'an 'Ashim (teks kerja repo)"
+    teks_imlai: "مالك"
+    makna_ringkas: "pemilik"
+    status: "dipakai sebagai teks kerja"
+  - nama: "bacaan lain yang membaca مَلِكِ"
+    teks_imlai: "ملك"
+    makna_ringkas: "raja"
+    status: "dicatat, tidak dipakai sebagai teks kerja"
+dampak_pada_makna: "Nuansa berubah: 'pemilik' vs 'raja'. Pokok bahwa hari itu berada dalam kekuasaan Allah tidak berubah."
+sumber:
+  - "al-Nashr fi al-qira'at al-'ashr (Ibn al-Jazari) — perlu kutipan jilid/halaman"
+verifikasi: "perlu-kutipan"
+catatan: "Jangan mengutip nama qira'at tertentu sebelum halaman sumbernya dicatat. Aturan: klaim yang bergantung pada bacaan berstatus 'bersyarat'."

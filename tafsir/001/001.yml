@@ -1,0 +1,36 @@
+surah: 1
+ayat: 1
+arab: "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ"
+imlai: "بسم الله الرحمن الرحيم"
+terjemah_minimal: "Dengan nama Allah, Yang Maha Pengasih, Maha Penyayang."
+kata_kunci:
+  - kata: "بِسْمِ"
+    akar: "س-م-و"
+    pola: "فِعْل (dari اسم)"
+    catatan: "Sebagian kamus menautkan ke و-س-م (tanda); dipakai sebagai pembuka tindakan."
+    perlu_verifikasi: true
+  - kata: "ٱللَّهِ"
+    akar: "إ-ل-ه"
+    pola: "فِعَال (الإله)"
+    catatan: "Akar yang menunjukkan 'yang disembah'."
+    perlu_verifikasi: false
+  - kata: "ٱلرَّحْمَـٰنِ"
+    akar: "ر-ح-م"
+    pola: "فَعْلَان"
+    catatan: "Pola mubālaghah (sangat)."
+    perlu_verifikasi: false
+  - kata: "ٱلرَّحِيمِ"
+    akar: "ر-ح-م"
+    pola: "فَعِيل"
+    perlu_verifikasi: false
+bukti_internal:
+  - ayat: "QS 27:30"
+    alasan: "Surat Sulaiman dibuka dengan basmalah — pola pembukaan yang sama, bukan rumus budaya lokal."
+klaim:
+  - isi: "Basmalah adalah pembuka yang dipakai dalam kitab yang diutus."
+    dasar: ["QS 1:1", "QS 27:30"]
+    status: "tetap"
+bantahan:
+  - isi: "Basmalah diperselisihkan: sebagian menghitungnya ayat pertama, sebagian bukan, sehingga jumlah ayat menjadi 7 atau 6."
+    jawaban: "Repo memakai hitungan Hafs (7 ayat) sebagai teks kerja dan mencatat perbedaan hitungan mushaf; ini soal penomoran, bukan perubahan teks."
+status: "ditinjau-1"

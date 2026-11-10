@@ -1,0 +1,32 @@
+surah: 1
+ayat: 7
+arab: "صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ"
+imlai: "صراط الذين أنعمت عليهم غير المغضوب عليهم ولا الضالين"
+terjemah_minimal: "Jalan orang-orang yang Engkau beri nikmat, bukan jalan orang yang dimurkai dan bukan pula orang yang tersesat."
+kata_kunci:
+  - kata: "أَنْعَمْتَ"
+    akar: "ن-ع-م"
+    pola: "أَفْعَلْتَ"
+    perlu_verifikasi: false
+  - kata: "ٱلْمَغْضُوبِ"
+    akar: "غ-ض-ب"
+    pola: "مَفْعُول"
+    perlu_verifikasi: false
+  - kata: "ٱلضَّآلِّينَ"
+    akar: "ض-ل-ل"
+    pola: "فَاعِّين (جمع)"
+    perlu_verifikasi: false
+bukti_internal:
+  - ayat: "QS 4:69"
+    alasan: "Allah menyebut siapa yang diberi nikmat: nabi, orang jujur, syuhada, orang saleh — penjelas internal untuk 'an'amta 'alaihim'."
+klaim:
+  - isi: "Ayat membedakan tiga kategori: diberi nikmat, dimurkai, tersesat — dibedakan, tidak disamakan."
+    dasar: ["QS 1:7", "QS 4:69"]
+    status: "tetap"
+  - isi: "Ayat ini tidak menetapkan identitas kelompok mana pun."
+    dasar: ["QS 1:7"]
+    status: "tetap"
+bantahan:
+  - isi: "Sebagian penafsir menetapkan kelompok tertentu (misalnya Yahudi dan Nasrani) sebagai 'yang dimurkai' dan 'yang tersesat'."
+    jawaban: "Ayat tidak menyebut identitas apa pun. Menetapkannya berarti menambah keterangan yang tidak ada di teks — ditolak Pasal 2; statusnya tetap sebagai kategori, bukan label kelompok."
+status: "ditinjau-1"

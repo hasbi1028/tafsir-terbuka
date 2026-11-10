@@ -1,0 +1,31 @@
+surah: 1
+ayat: 5
+arab: "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ"
+imlai: "إياك نعبد وإياك نستعين"
+terjemah_minimal: "Hanya kepada-Mu kami menyembah, dan hanya kepada-Mu kami meminta pertolongan."
+kata_kunci:
+  - kata: "إِيَّاكَ"
+    akar: null
+    pola: "—"
+    catatan: "Kata ganti (dhamir); tidak berakar."
+    perlu_verifikasi: false
+  - kata: "نَعْبُدُ"
+    akar: "ع-ب-د"
+    pola: "نَفْعُل (مضارع)"
+    perlu_verifikasi: false
+  - kata: "نَسْتَعِينُ"
+    akar: "ع-و-ن"
+    pola: "نَسْتَفْعِل (istifʿāl)"
+    catatan: "Pola permintaan pertolongan."
+    perlu_verifikasi: false
+bukti_internal:
+  - ayat: "QS 2:21"
+    alasan: "Perintah menyembah hanya kepada Rabb — pola yang sama dengan pembatasan di ayat ini."
+klaim:
+  - isi: "Ibadah dan permintaan pertolongan ditujukan hanya kepada Allah."
+    dasar: ["QS 1:5", "QS 2:21"]
+    status: "tetap"
+bantahan:
+  - isi: "Mendahulukan objek (إِيَّاكَ) bisa sekadar penekanan gaya, bukan pembatasan."
+    jawaban: "Dua kemungkinan dicatat; struktur ayat dan QS 2:21 menopang pembacaan pembatasan, tetapi tidak dipaksakan menjadi hukum baru."
+status: "ditinjau-1"
